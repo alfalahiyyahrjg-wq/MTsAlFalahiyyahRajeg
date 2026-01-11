@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Galeri - MTs Al Falahiyyah Rajeg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Overlay for Mobile -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">MTs Al Falahiyyah Rajeg</h1>
+                <p class="site-subtitle">Sekolah Unggulan Berprestasi, Berkarakter, dan Berwawasan Global</p>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Branda</a></li>
+                    <li><a href="form.html" class="nav-link"><i class="fas fa-edit"></i> Pendaftaran</a></li>
+                    <li><a href="gallery.html" class="nav-link"><i class="fas fa-images"></i> Kegiatan</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+        <section class="gallery-intro">
+            <h2 class="section-title">Galeri Kegiatan Eksul Sekolah</h2>
+            <p>Kumpulan kegiatan ekstrakurikuler siswa MTs Al Falahiyyah Rajeg yang menampilkan berbagai aktivitas pengembangan minat dan bakat. Setiap kegiatan mencerminkan semangat kebersamaan, kreativitas, kedisiplinan, serta prestasi siswa dalam membentuk karakter dan potensi generasi emas Indonesia.</p>
+        </section>
+
+        <!-- Pramuka -->
+        <section class="gallery-section">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="images/PRAMUKA.jpeg" alt="Pramuka" data-src="images/PRAMUKA.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Pramuka</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler Pramuka yang melatih kedisiplinan, kerja sama, dan kemandirian melalui berbagai aktivitas seperti baris-berbaris, tali-temali, serta kegiatan alam terbuka dengan bimbingan pembina yang berpengalaman.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eksul Pramuka</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hadroh -->
+                <div class="gallery-item" data-category="extracurricular">
+                    <div class="gallery-image">
+                        <img src="images/Hadroh.jpeg" alt="Hadroh" data-src="images/Hadroh.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Hadroh</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler Hadroh untuk mengembangkan bakat seni musik islami melalui lantunan shalawat dan permainan alat musik rebana dengan bimbingan pelatih berpengalaman.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eskul Hadroh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Futsal -->
+                <div class="gallery-item" data-category="achievement">
+                    <div class="gallery-image">
+                        <img src="images/Futsal.jpeg" alt="Futsal" data-src="images/Futsal.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Futsal</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler Futsal untuk melatih kebugaran jasmani, sportivitas, dan kerja sama tim melalui latihan teknik dan pertandingan yang dibimbing oleh pelatih.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eskul Futsal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tilawah -->
+                <div class="gallery-item" data-category="facility">
+                    <div class="gallery-image">
+                        <img src="images/Tilawah.jpeg" alt="Tilawah" data-src="images/Tilawah.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Tilawah</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler Tilawah untuk meningkatkan kemampuan membaca Al-Qur'an dengan tartil dan irama yang baik sesuai kaidah tajwid di bawah bimbingan guru pembina.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eskul Tilawah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pildacil -->
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="images/Pildacil.jpeg" alt="Pildacil" data-src="images/Pildacil.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Pildacil</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler Pildacil (Pidato Cilik) untuk melatih keberanian, kepercayaan diri, serta kemampuan berbicara di depan umum dengan bimbingan pembina.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eskul Pildacil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OSIS -->
+                <div class="gallery-item" data-category="academic">
+                    <div class="gallery-image">
+                        <img src="images/OSIS.jpeg" alt="OSIS" data-src="images/OSIS.jpeg">
+                        <div class="image-overlay">
+                            <span class="school-badge">Ekstrakurikuler</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>OSIS</h3>
+                        <p>Siswa mengikuti kegiatan ekstrakurikuler OSIS untuk melatih jiwa kepemimpinan, tanggung jawab, kerja sama, serta kemampuan berorganisasi melalui berbagai program dan kegiatan sekolah dengan bimbingan pembina.</p>
+                        <div class="gallery-meta">
+                            <span><i class="fas fa-users"></i> Eskul OSIS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">Copyright © MTs Al Falahiyyah Rajeg</p>
+                    <p>Email: mtsalfalahiyyah.official@gmail.com | Telp: 085820000132</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/mtsalfalahiyyah_rajeg" target="_blank" rel="noopener noreferrer" 
+                       data-tooltip="Instagram MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/MTsAlFalahiyyahRajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="YouTube MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mtsalfalahiyyahrajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="Facebook MTs Al Falahiyyah">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

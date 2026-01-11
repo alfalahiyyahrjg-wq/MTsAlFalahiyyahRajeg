@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Pendaftaran - MTs Al Falahiyyah Rajeg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* System fonts fallback */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        h1, h2, h3 { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        /* Inline Font Awesome icons */
+        .fas:before, .fab:before {
+            display: inline-block;
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .fa-home:before { content: "\f015"; }
+        .fa-edit:before { content: "\f044"; }
+        .fa-images:before { content: "\f302"; }
+        .fa-info-circle:before { content: "\f05a"; }
+        .fa-user:before { content: "\f007"; }
+        .fa-envelope:before { content: "\f0e0"; }
+        .fa-phone:before { content: "\f095"; }
+        .fa-map-marker-alt:before { content: "\f3c5"; }
+        .fa-calendar-alt:before { content: "\f073"; }
+        .fa-graduation-cap:before { content: "\f19d"; }
+        .fa-users:before { content: "\f0c0"; }
+        .fa-school:before { content: "\f549"; }
+        .fa-spinner:before { content: "\f110"; }
+        .fa-check:before { content: "\f00c"; }
+        .fa-times:before { content: "\f00d"; }
+        .fa-exclamation-triangle:before { content: "\f071"; }
+        .fa-instagram:before { content: "\f16d"; }
+        .fa-youtube:before { content: "\f167"; }
+        .fa-facebook:before { content: "\f39e"; }
+    </style>
+</head>
+<body>
+    <!-- Loading Overlay for Mobile -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">MTs Al Falahiyyah Rajeg</h1>
+                <p class="site-subtitle">Sekolah Unggulan Berprestasi, Berkarakter, dan Berwawasan Global</p>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Branda</a></li>
+                    <li><a href="form.html" class="nav-link"><i class="fas fa-edit"></i> Pendaftaran</a></li>
+                    <li><a href="gallery.html" class="nav-link"><i class="fas fa-images"></i> Kegiatan</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container main-content" id="form-content">
+        <section class="form-intro" id="pendaftaran">
+            <h2 class="section-title">Form Pendaftaran Siswa Baru</h2>
+            <p>Selamat datang di portal pendaftaran MTs Al Falahiyyah Rajeg. Silakan isi formulir di bawah ini dengan data yang lengkap dan benar untuk mengajukan pendaftaran sebagai calon siswa baru tahun ajaran 2026/2027.</p>
+            <p>Setelah mengisi formulir online, Anda akan menerima link grup WhatsApp untuk informasi.</p>
+        </section>
+            
+            <div class="form-info" id="form-info">
+                <h3><i class="fas fa-info-circle"></i> Informasi Pendaftaran</h3>
+                
+                <div class="info-item">
+                    <h4><i class="fas fa-clock"></i> Jadwal Pendaftaran</h4>
+                    <p>Gelombang 1: 12 - 16 Maret 2026<br>
+                       Gelombang 2: 1 - 27 Juni 2026</p>
+                </div>
+                
+                <div class="info-item">
+                    <h4><i class="fas fa-file-alt"></i> Dokumen yang Dibutuhkan</h4>
+                    <p>1. Fotokopi rapor SD/MI<br>
+                       2. Fotokopi akta kelahiran<br>
+                       3. Pas foto 3x4 (1 lembar)<br>
+                       4. Fotokopi Kartu Keluarga</p>
+                </div>
+                
+                <div class="info-item">
+                    <h4><i class="fas fa-phone-volume"></i> Kontak Panitia</h4>
+                    <p>
+                       Email : mtsalfalahiyyah.official@gmail.com<br>
+                       WhatsApp : 085820000132</p>
+                </div>
+                
+                <div class="important-notice">
+                    <h4><i class="fas fa-exclamation-circle"></i> Pendaftaran Online</h4>
+                    <p>Silahkan daftar melalui link di bawah ini</p>
+                    <a href="https://forms.gle/hENngRchXvUUKYVM9" target="_blank" class="online-form-link" data-tooltip="Buka di tab baru">
+                        <i class="fas fa-external-link-alt"></i> Isi Formulir Online Resmi
+                    </a>
+                </div>
+            </div>
+            
+            <div class="form-notification" id="form-notification">
+                <!-- Notifikasi akan muncul di sini setelah form dikirim -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">Copyright © MTs Al Falahiyyah Rajeg</p>
+                    <p>Email: mtsalfalahiyyah.official@gmail.com | Telp: 085820000132</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/mtsalfalahiyyah_rajeg" target="_blank" rel="noopener noreferrer" 
+                       data-tooltip="Instagram MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/MTsAlFalahiyyahRajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="YouTube MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mtsalfalahiyyahrajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="Facebook MTs Al Falahiyyah">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="theme-color" content="#1e3a8a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>MTs Al Falahiyyah Rajeg - Sekolah Unggulan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* System fonts fallback */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        h1, h2, h3 { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-text h2 { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        /* Inline Font Awesome icons */
+        .fas:before, .fab:before {
+            display: inline-block;
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .fa-home:before { content: "\f015"; }
+        .fa-edit:before { content: "\f044"; }
+        .fa-images:before { content: "\f302"; }
+        .fa-info-circle:before { content: "\f05a"; }
+        .fa-book-quran:before { content: "\f687"; }
+        .fa-language:before { content: "\f1ab"; }
+        .fa-users:before { content: "\f0c0"; }
+        .fa-instagram:before { content: "\f16d"; }
+        .fa-youtube:before { content: "\f167"; }
+        .fa-facebook:before { content: "\f39e"; }
+        .fa-spinner:before { content: "\f110"; }
+        .fa-wifi-slash:before { content: "\f6ac"; }
+    </style>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Loading Overlay for Mobile -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+      <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">MTs Al Falahiyyah Rajeg</h1>
+                <p class="site-subtitle">Sekolah Unggulan Berprestasi, Berkarakter, dan Berwawasan Global</p>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Branda</a></li>
+                    <li><a href="form.html" class="nav-link"><i class="fas fa-edit"></i> Pendaftaran</a></li>
+                    <li><a href="gallery.html" class="nav-link"><i class="fas fa-images"></i> Kegiatan</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Selamat Datang di</h2>
+                <h2>MTs Al Falahiyyah Rajeg</h2>
+                <p>Sekolah yang mengedepankan pendidikan berkualitas, pembentukan karakter, dan pengembangan potensi siswa secara holistik untuk menghadapi tantangan masa depan.</p>
+                <p>Dengan fasilitas modern, kurikulum terpadu, dan tenaga pendidik yang profesional, kami siap mencetak generasi emas Indonesia yang berakhlak mulia, cerdas, dan kompetitif.</p>
+                <a href="form.html" class="btn-primary">Daftar Sekarang!!!</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="images/Gedung Sekolah.jpeg" alt="MTs Al Falahiyyah Rajeg" 
+                         data-src="images/Gedung Sekolah.jpeg"
+                         data-low-src="images/Gedung Sekolah-low.jpg">
+                    <div class="achievement-badge">MTs Al Falahiyyah Rajeg</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Program Unggulan Sekolah</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book-quran"></i>
+                    </div>
+                    <h3>Tahfidz Quran</h3>
+                    <p>Program penghafalan Al-Quran dengan metode yang efektif dan bimbingan ustadz/ustadzah berpengalaman, mencakup tahsin dan pemahaman ayat.</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Kitab Salafi</h3>
+                    <p>Pembelajaran kitab-kitab ulama salaf untuk memperdalam pemahaman agama Islam secara komprehensif dengan sanad keilmuan yang jelas.</p>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Pembinaan Karakter</h3>
+                    <p>Program pengembangan karakter siswa melalui kegiatan pembiasaan, mentoring, dan pembinaan akhlak mulia berdasarkan nilai-nilai Islam.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips-section">
+            <h2 class="section-title">Tips Sukses Belajar di MTs</h2>
+            <div class="tips-list">
+                <div class="tip-item">
+                    <span class="tip-number">1</span>
+                    <div class="tip-content">
+                        <h3>Manajemen Waktu</h3>
+                        <p>Buat jadwal belajar yang teratur, alokasikan waktu untuk setiap mata pelajaran, dan sisihkan waktu untuk istirahat serta kegiatan ekstrakurikuler.</p>
+                    </div>
+                </div>
+                
+                <div class="tip-item">
+                    <span class="tip-number">2</span>
+                    <div class="tip-content">
+                        <h3>Metode Belajar Efektif</h3>
+                        <p>Gunakan teknik belajar yang sesuai dengan gaya belajar Anda, seperti mind mapping, diskusi kelompok, atau pembelajaran visual.</p>
+                    </div>
+                </div>
+                
+                <div class="tip-item">
+                    <span class="tip-number">3</span>
+                    <div class="tip-content">
+                        <h3>Partisipasi Aktif</h3>
+                        <p>Terlibat aktif dalam proses pembelajaran di kelas, bertanya ketika belum paham, dan mengerjakan tugas dengan sungguh-sungguh.</p>
+                    </div>
+                </div>
+                
+                <div class="tip-item">
+                    <span class="tip-number">4</span>
+                    <div class="tip-content">
+                        <h3>Keseimbangan Hidup</h3>
+                        <p>Jaga keseimbangan antara akademik, kegiatan ekstrakurikuler, sosial, dan waktu untuk diri sendiri serta keluarga.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="school-motto">
+                <h3>Motto Sekolah: "Unggul dalam Prestasi, Berbudi Luhur, dan Berwawasan Lingkungan"</h3>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">Copyright © MTs Al Falahiyyah Rajeg</p>
+                    <p>Email: mtsalfalahiyyah.official@gmail.com | Telp: 085820000132</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/mtsalfalahiyyah_rajeg" target="_blank" rel="noopener noreferrer" 
+                       data-tooltip="Instagram MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/MTsAlFalahiyyahRajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="YouTube MTs Al Falahiyyah Rajeg">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mtsalfalahiyyahrajeg" target="_blank" rel="noopener noreferrer"
+                       data-tooltip="Facebook MTs Al Falahiyyah">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
